@@ -3,7 +3,7 @@
 
 【V3.0】  
 #PagerView实现歌曲列表、歌词显示    
-#LrcView：歌词视图
+#LrcView：歌词视图 https://github.com/wangchenyan/lrcview
 
 【V4.0】   
 #Service 音乐后台播放、控制  
