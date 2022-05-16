@@ -1,6 +1,11 @@
 # Android-iMusic
 安卓音乐播放器仿千千静听支持歌词同步
 
+【V2.0】
+MusicControl实现基础音乐播放
+最小化、切换Fragment后仍可播放
+缺点:切换Fragment不能及时释放资源
+
 【V3.0】  
 #PagerView实现歌曲列表、歌词显示    
 #LrcView：歌词视图 https://github.com/wangchenyan/lrcview
