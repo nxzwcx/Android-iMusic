@@ -69,7 +69,10 @@ MV显示
 Fragment跳转后原内容仍显示，只能改为PagerView实现左右滑动切换
 Fragment通过底下Tab切换后闪退，问题是该Fragment的
 销毁函数一些释放引起。
-（难点）### Fragment绑定Service未实现，百度查了一下应该是不可以。改为Activity与Service交互。这个问题折腾了好久
+（难点）### Fragment绑定Service未实现，百度查了一下应该是不可以。改为Activity与Service交互。这个问题折腾了好久。
+利用static静态变量实现Activity与Fragment之间传递参数（继承各种监听事件，从而传递List<Listeners>)实现控制上一曲、下一曲。
+      fragment的控件如点击播放后，通过静态变量mediaplayer传递给activity，再与service交互。
+参考： https://blog.csdn.net/weixin_34220834/article/details/88030672
 
 
 ## 参考:
