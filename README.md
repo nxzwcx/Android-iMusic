@@ -69,6 +69,6 @@ Fragment通过底下Tab切换后闪退，问题是该Fragment的
 
 
 ## 参考:
-网易云音乐，PC版MusicTool，安卓MusicWorld
+网易云音乐，PC版MusicTool，安卓MusicWorld   
 Service教程：
 https://www.cnblogs.com/yanglh6-jyx/p/Android_Service_MediaPlayer.html
