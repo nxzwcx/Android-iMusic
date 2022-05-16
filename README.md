@@ -69,6 +69,7 @@ MV显示
 Fragment跳转后原内容仍显示，只能改为PagerView实现左右滑动切换
 Fragment通过底下Tab切换后闪退，问题是该Fragment的
 销毁函数一些释放引起。
+（难点）### Fragment绑定Service未实现，百度查了一下应该是不可以。改为Activity与Service交互。这个问题折腾了好久
 
 
 ## 参考:
