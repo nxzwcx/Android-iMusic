@@ -29,7 +29,7 @@ targetSdk 32
 Gradle版本:distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-bin.zip
 
 
-##【待开发功能】  
+## 【待开发功能】  
 专辑旋转封面，仿网易云碟片  
     圆角图片处理
 音乐控制改为后台方式  
@@ -62,11 +62,11 @@ MV显示
 最新歌曲
    爬虫
 
-##【难点问题记录】
+## 【难点问题记录】
 Fragment跳转后原内容仍显示，只能改为PagerView实现左右滑动切换
 Fragment通过底下Tab切换后闪退，问题是该Fragment的
 销毁函数一些释放引起。
 
 
-##  参考:
+## 参考:
 网易云音乐，PC版MusicTool，安卓MusicWorld
