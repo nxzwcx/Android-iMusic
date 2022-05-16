@@ -23,6 +23,8 @@ Gradle版本:distributionUrl=https\://services.gradle.org/distributions/gradle-7
 
 
 【待开发功能】
+专辑旋转封面，仿网易云碟片
+    圆角图片处理
 音乐控制改为后台方式
     Service
 音频焦点实现外接电话等自动停止播放
