@@ -21,7 +21,8 @@ MusicControl实现基础音乐播放
 #歌手列表， GridView实现
 
 
-## 开发环境：Android Studio 64位
+## 开发环境：Android Studio 64位  
+jdk:11
 compileSdk 32
 minSdk 25
 targetSdk 32
