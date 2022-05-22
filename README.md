@@ -39,6 +39,7 @@ Gradle版本:distributionUrl=https\://services.gradle.org/distributions/gradle-7
    使用系统服务AudioManger
 按歌手，按专辑分类
     Cursor过滤
+    HashSet遍历list存储专辑、歌手信息实现去重
 歌词匹配  
     优先匹配本地歌词，找不到则搜索网络歌词
     歌词API:歌词迷，网易云
