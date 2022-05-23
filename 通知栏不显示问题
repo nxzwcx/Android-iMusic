@@ -1,0 +1,6 @@
+创建方式：Notification+Remoteview,但是模拟器显示，真机调试不显示
+困难点：调试了两天就是不显示，代码基本与波尼音乐源码一致。
+参考：
+Notification用法：https://blog.csdn.net/qq_38436214/article/details/109527543
+波尼音乐：https://www.jianshu.com/p/1c0f5c4f64fa
+问题原因：
