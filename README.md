@@ -77,7 +77,8 @@ Fragment通过底下Tab切换后闪退，问题是该Fragment的
       然后fragment修改mediaplayer上一曲、下一曲状态
 参考： https://blog.csdn.net/weixin_34220834/article/details/88030672
 
-
+通知栏不显示问题:Notifications
+  还没找到原因，怀疑是安卓8以上参数问题
 ## 参考:
 网易云音乐，PC版MusicTool，安卓MusicWorld   
 Service教程：
