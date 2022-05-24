@@ -8,7 +8,7 @@ Notification用法：https://blog.csdn.net/qq_38436214/article/details/109527543
 通知栏不显示的写法：Notification notification = new Notification.Builder(MainActivity.this)；
 通知栏显示的写法：Notification notification = new Notification.Builder(MainActivity.this, "channel_0")；
 
-#   不显示代码
+#不显示代码
         String id = "channel_012";
         String des = "111";
 
@@ -30,7 +30,7 @@ Notification用法：https://blog.csdn.net/qq_38436214/article/details/109527543
         }
         manager.notify(1, notification);
         Log.i(TAG,"通知栏")  
-#   显示代码
+#显示代码
         String CHANNEL_ID = "channel_0";
         String CHANNEL_NAME = "channel_0";
 
