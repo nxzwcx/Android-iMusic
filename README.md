@@ -1,7 +1,7 @@
 # Android-iMusic
 安卓音乐播放器仿千千静听支持歌词同步
 
-##【V2.0】  
+## 【V2.0】  
 Cursor扫描本地音频文件，过滤mp3，flac格式
 MusicControl实现基础音乐播放
 最小化、切换Fragment后仍可播放
