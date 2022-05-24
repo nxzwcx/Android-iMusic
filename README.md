@@ -7,7 +7,7 @@ MusicControl实现基础音乐播放
 最小化、切换Fragment后仍可播放
 缺点:切换Fragment不能及时释放资源
 
-##【V3.0】  
+## 【V3.0】  
 #PagerView实现歌曲列表、歌词显示    
 #LrcView：歌词视图 https://github.com/wangchenyan/lrcview
   同目录lrc文件歌词同步
@@ -18,7 +18,7 @@ MusicControl实现基础音乐播放
 #检测播放结束，自动下一曲
 
 #MV ，通过WebView实现
-#歌手列表， GridView实现
+# 歌手列表， GridView实现
 
 
 ## 开发环境：Android Studio 64位  
@@ -29,7 +29,7 @@ MusicControl实现基础音乐播放
 ### Gradle版本:distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-bin.zip
 
 
-## 【待开发功能】  
+##【待开发功能】  
 + 专辑旋转封面，仿网易云碟片  
     圆角图片处理
 + 音乐控制改为后台方式  
