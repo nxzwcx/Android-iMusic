@@ -83,6 +83,8 @@ Fragment通过底下Tab切换后闪退，问题是该Fragment的
 Service教程：
 https://www.cnblogs.com/yanglh6-jyx/p/Android_Service_MediaPlayer.html
 
+### 广播接收传递service或者音乐对象，为空
+
 
 ##  实现原理
 + 通知栏取消:manage.cancel(id)
@@ -91,3 +93,4 @@ https://www.cnblogs.com/yanglh6-jyx/p/Android_Service_MediaPlayer.html
 方式一 静态注册 全局生效
 方式二 动态注册 与activity生命周期一致
 接听信息Receiver，intent通过action取数据
+action名称设置问题，广播与接收得一致。还得检查是用的静态注册还是动态注册
