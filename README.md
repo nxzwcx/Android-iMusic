@@ -82,3 +82,12 @@ Fragment通过底下Tab切换后闪退，问题是该Fragment的
 网易云音乐，PC版MusicTool，安卓MusicWorld   
 Service教程：
 https://www.cnblogs.com/yanglh6-jyx/p/Android_Service_MediaPlayer.html
+
+
+##  实现原理
++ 通知栏取消:manage.cancel(id)
++ 通知栏更新内容:安卓广播机制
+注册广播Broadcast，设置action
+方式一 静态注册 全局生效
+方式二 动态注册 与activity生命周期一致
+接听信息Receiver，intent通过action取数据
