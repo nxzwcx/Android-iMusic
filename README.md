@@ -42,6 +42,7 @@ MusicControl实现基础音乐播放
     Service
 + 音频焦点实现外接电话等自动停止播放  
    使用系统服务AudioManger
++ 耳机线控  
 + 按歌手，按专辑分类
     Cursor过滤
     HashSet遍历list存储专辑、歌手信息实现去重
