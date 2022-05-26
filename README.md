@@ -14,11 +14,17 @@ MusicControl实现基础音乐播放
 
 ## 【V4.0】   
 #Service 音乐后台播放、控制  
-#外来电话、声音，捕捉焦点并暂停播放  
-#检测播放结束，自动下一曲
+#外来电话、声音，捕捉焦点并暂停播放   
+#检测播放结束，自动下一曲  
 
-#MV，通过WebView实现
-#歌手列表， GridView实现
+#MV，通过WebView实现  
+#歌手列表， GridView实现  
+
+## 【V5.0】 
+#通知栏显示  
+#通知栏内容更新，广播方式更新通知，实现上一首，暂停/播放，下一首，退出
+#歌曲专辑封面显示  
+#fragment页面:歌手/专辑分类   
 
 
 ## 开发环境：Android Studio 64位  
@@ -44,7 +50,7 @@ MusicControl实现基础音乐播放
       歌词API:歌词迷，网易云
        http/json获取解析
 + MV显示  
-   暂时通过
+   暂时通过  
 + 千千静听其他功能  
    + 打开指定音乐文件
    + 音效均衡DSP
@@ -83,7 +89,7 @@ Fragment通过底下Tab切换后闪退，问题是该Fragment的
 Service教程：
 https://www.cnblogs.com/yanglh6-jyx/p/Android_Service_MediaPlayer.html
 
-### 广播接收传递service或者音乐对象，为空
+### 广播接收传递service或者音乐对象，为空  
 
 
 ##  实现原理
