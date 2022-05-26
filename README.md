@@ -8,7 +8,9 @@ MusicControl实现基础音乐播放
 缺点:切换Fragment不能及时释放资源
 
 ## 【V3.0】  
-#PagerView实现歌曲列表、歌词显示    
+#PagerView实现歌曲列表、歌词显示 
+  传统方案是Fragmentlayout+ FragmentManager实现
+帧视图的隐藏、切换。但比较麻烦。几乎现在主流都采用PagerView方式实现页面视图切换，优势是支持手势滑动切换
 #LrcView：歌词视图 https://github.com/wangchenyan/lrcview
   同目录lrc文件歌词同步
 
