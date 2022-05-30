@@ -36,7 +36,7 @@ MusicControl实现基础音乐播放
 - compileSdk 32
 - minSdk 25
 - targetSdk 32
-- Gradle版本: distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-bin.zip
+- Gradle版本: gradle-7.2-bin.zip
 
 
 ## 【待开发功能】  
