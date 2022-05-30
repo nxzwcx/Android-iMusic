@@ -26,7 +26,9 @@ MusicControl实现基础音乐播放
 #通知栏显示  
 #通知栏内容更新，广播方式更新通知，实现上一首，暂停/播放，下一首，退出
 #歌曲专辑封面显示  
-#fragment页面:歌手/专辑分类   
+   获取albumID，获取封面图片信息
+#fragment页面:歌手/专辑分类 
+   Recyclerview+adapter实现  
 
 
 ## 开发环境：Android Studio 64位  
@@ -103,8 +105,6 @@ Service教程：
 https://www.cnblogs.com/yanglh6-jyx/p/Android_Service_MediaPlayer.html
 
 ### 广播接收传递service或者音乐对象，为空  
-
-
 ##  实现原理
 + 通知栏取消:manage.cancel(id)
 + 通知栏更新内容:安卓广播机制
@@ -113,3 +113,11 @@ https://www.cnblogs.com/yanglh6-jyx/p/Android_Service_MediaPlayer.html
 方式二 动态注册 与activity生命周期一致
 接听信息Receiver，intent通过action取数据
 action名称设置问题，广播与接收得一致。还得检查是用的静态注册还是动态注册
+
+
+###  频谱不显示问题
+
+###  根据专辑id获取封面图片报错
++ 清单文件中声明audio_setting权限
++ 文件通过inputstream，参数uri生成
++ uri的目录只能放在特定audio目录下，否则会报错
