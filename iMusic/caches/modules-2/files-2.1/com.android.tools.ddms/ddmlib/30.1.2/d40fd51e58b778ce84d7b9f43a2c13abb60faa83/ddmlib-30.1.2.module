@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.ddms",
+    "module": "ddmlib",
+    "version": "30.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ddmlib-30.1.2.jar",
+          "url": "ddmlib-30.1.2.jar",
+          "size": 562875,
+          "sha512": "e0887fcc96f7d983d6429fd128bdb56421d4a8d67ba34f0c19c6bde003c27ed21933d19689f000a5581e59741c08ea0770d041999e48f8b50fb6735be2596bb9",
+          "sha256": "f97b23718247c19d9f0d377bc37f6cd952f875a0399db58ff6f8a43e3a0f1000",
+          "sha1": "167203acad8db04706a2efd7182c72bc084822e8",
+          "md5": "f1e8dac2dc0075a844705ec42980264b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "net.sf.kxml",
+          "module": "kxml2",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ddmlib-30.1.2.jar",
+          "url": "ddmlib-30.1.2.jar",
+          "size": 562875,
+          "sha512": "e0887fcc96f7d983d6429fd128bdb56421d4a8d67ba34f0c19c6bde003c27ed21933d19689f000a5581e59741c08ea0770d041999e48f8b50fb6735be2596bb9",
+          "sha256": "f97b23718247c19d9f0d377bc37f6cd952f875a0399db58ff6f8a43e3a0f1000",
+          "sha1": "167203acad8db04706a2efd7182c72bc084822e8",
+          "md5": "f1e8dac2dc0075a844705ec42980264b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ddmlib-30.1.2-javadoc.jar",
+          "url": "ddmlib-30.1.2-javadoc.jar",
+          "size": 1180235,
+          "sha512": "34fe65fbe41e8a63808c5de4ac0563417c4b74b0f990bd3f3af4e6795c8a16a0e9e53411f6a3933f4033542fcff28bbe12ca4a8cdb7888061cba24b36d014ee1",
+          "sha256": "dbfee4bf7fafecf63f8813d0d0f934c65811ce6c6683c14d5567f133c2bdf49c",
+          "sha1": "bd6bcb45b181900ea8fd24c8233e889013f025db",
+          "md5": "6ce501b8852229275af9d78f6b75c9ca"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ddmlib-30.1.2-sources.jar",
+          "url": "ddmlib-30.1.2-sources.jar",
+          "size": 690885,
+          "sha512": "2efdaebdc80d54db42d0f31c1cf1d84fdab9c0856412ea030b2493abde855fe18aab3a2671c89609a79ababdf4f86e1fcf6893e93c410a43f22f5999cf804f6c",
+          "sha256": "662e0ee951f2f32a699b382586f18fa805f9110715e2147bb7cca3ea1d45dac4",
+          "sha1": "ff9aa3bc56725371dbf282f05ea0b3a4c8bd487d",
+          "md5": "a0319a22c4395c08fd47b81d69702975"
+        }
+      ]
+    }
+  ]
+}

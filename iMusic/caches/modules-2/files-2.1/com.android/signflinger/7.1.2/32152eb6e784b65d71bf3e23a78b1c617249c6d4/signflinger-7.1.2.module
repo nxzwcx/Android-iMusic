@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android",
+    "module": "signflinger",
+    "version": "7.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "signflinger-7.1.2.jar",
+          "url": "signflinger-7.1.2.jar",
+          "size": 15058,
+          "sha512": "e24c22ffea01cd084f94a7fdb9a25fe571da39a4d69f6cd1567c40afd6f4736355147b2245c092d27d7f92e42df0aa6678a1ce822308e82f662746430aaf9034",
+          "sha256": "95dc1bf5fd81a8870223fd2d4706aa046b4044c4ba95dfc038ae703f204a58d6",
+          "sha1": "a05078872e7f98dcf233befb16f86f5c75d17f86",
+          "md5": "efce261456930a67990908de6bd5ccf3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "apksig",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "com.android",
+          "module": "zipflinger",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "annotations",
+          "version": {
+            "requires": "30.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "signflinger-7.1.2.jar",
+          "url": "signflinger-7.1.2.jar",
+          "size": 15058,
+          "sha512": "e24c22ffea01cd084f94a7fdb9a25fe571da39a4d69f6cd1567c40afd6f4736355147b2245c092d27d7f92e42df0aa6678a1ce822308e82f662746430aaf9034",
+          "sha256": "95dc1bf5fd81a8870223fd2d4706aa046b4044c4ba95dfc038ae703f204a58d6",
+          "sha1": "a05078872e7f98dcf233befb16f86f5c75d17f86",
+          "md5": "efce261456930a67990908de6bd5ccf3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "signflinger-7.1.2-javadoc.jar",
+          "url": "signflinger-7.1.2-javadoc.jar",
+          "size": 405348,
+          "sha512": "a71f255a0d9f29dc370edcb0225a0381832ea8da675ee7d7f200971ccb2157bc04f9641e7914c3218e006ecf30a0e55d69aeb86d85094fa8284531b0831198fb",
+          "sha256": "eefc5efdac83d426d0f155ff8a7ed2c5062f46f61d32ee6e3db1e1354e466442",
+          "sha1": "1063921657a6442a281a9be90e4602d06e9e1e4d",
+          "md5": "782726a4f3797207c81380062d961e32"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "signflinger-7.1.2-sources.jar",
+          "url": "signflinger-7.1.2-sources.jar",
+          "size": 9434,
+          "sha512": "b186c693cb68e2392b2038302ddff31076d84db825ba882a788bb33436c2f5e24e90db593c538a3bcc0d9327a0ee5f3e81f38a4854eacc93da96d713a71a30f1",
+          "sha256": "e5d767372413ed758e4a65b0c1d1d9aea903f94c9ba0314e2a20362afe5ade2a",
+          "sha1": "621208737f7d6e0d82a5c348655258b6768aef63",
+          "md5": "0e636f8a0dca88ac03111123e26cfb72"
+        }
+      ]
+    }
+  ]
+}

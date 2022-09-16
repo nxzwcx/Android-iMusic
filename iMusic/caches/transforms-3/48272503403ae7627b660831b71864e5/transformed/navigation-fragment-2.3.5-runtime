@@ -1,0 +1,8 @@
+androidx.navigation.fragment.DialogFragmentNavigator
+androidx.navigation.fragment.DialogFragmentNavigator$1
+androidx.navigation.fragment.DialogFragmentNavigator$Destination
+androidx.navigation.fragment.FragmentNavigator
+androidx.navigation.fragment.FragmentNavigator$Destination
+androidx.navigation.fragment.FragmentNavigator$Extras
+androidx.navigation.fragment.FragmentNavigator$Extras$Builder
+androidx.navigation.fragment.NavHostFragment

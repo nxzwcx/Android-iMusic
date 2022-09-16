@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.utp",
+    "module": "android-device-provider-gradle-proto",
+    "version": "30.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "android-device-provider-gradle-proto-30.1.2.jar",
+          "url": "android-device-provider-gradle-proto-30.1.2.jar",
+          "size": 38003,
+          "sha512": "957d5a92feab324ae21cbe7a79bbb5f784454a06065ffb4afe18ec00bcc960791dacb485bf6c175c177484295e15b67907e430bd1c7069bc1ea130b38b713722",
+          "sha256": "bca38809b3c3b09667a938b8bc8a643aeecf7983153daa0c4841390bb2fad031",
+          "sha1": "bf8a24d0db4814d8c22068cf38238dd516325a42",
+          "md5": "a3a756970d432c52933d5c554cbe9836"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-device-provider-gradle-proto-30.1.2.jar",
+          "url": "android-device-provider-gradle-proto-30.1.2.jar",
+          "size": 38003,
+          "sha512": "957d5a92feab324ae21cbe7a79bbb5f784454a06065ffb4afe18ec00bcc960791dacb485bf6c175c177484295e15b67907e430bd1c7069bc1ea130b38b713722",
+          "sha256": "bca38809b3c3b09667a938b8bc8a643aeecf7983153daa0c4841390bb2fad031",
+          "sha1": "bf8a24d0db4814d8c22068cf38238dd516325a42",
+          "md5": "a3a756970d432c52933d5c554cbe9836"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-device-provider-gradle-proto-30.1.2-javadoc.jar",
+          "url": "android-device-provider-gradle-proto-30.1.2-javadoc.jar",
+          "size": 444345,
+          "sha512": "74cded6cac1fcdb92cb1f01a9756d5c5369e311033aa253b9f04210d26e8acf3b77dce39851c756999665a4d0c0411a8708cfe3ef8a18cf206042e8c78d372e8",
+          "sha256": "d1dbd2a5365797a5c6656ddb63de324e342c85d5941d5cb9342bb0b02ee190a6",
+          "sha1": "66166e18528ec152c51bc22f2990ef130572fb82",
+          "md5": "44ce9d43f810baa9c16a3bdb3acd3d74"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-device-provider-gradle-proto-30.1.2-sources.jar",
+          "url": "android-device-provider-gradle-proto-30.1.2-sources.jar",
+          "size": 16990,
+          "sha512": "0b55d8316f3e399a2d4fe1abd52b9fbb978417fb66b528467151958057e44d92a64710fdacce5c51d15607e2e6f1ab5f8bb07bcee1d2f01e8d3d081e1c6eab53",
+          "sha256": "634a7e4b643e257c75ccb2d088baec51730ddb06029ed2947165d46bd5c29858",
+          "sha1": "39e846b1e5bffbf6d90673b8e603348be16c8209",
+          "md5": "143c0c1bc768c22964dc3b997fd4e44b"
+        }
+      ]
+    }
+  ]
+}
