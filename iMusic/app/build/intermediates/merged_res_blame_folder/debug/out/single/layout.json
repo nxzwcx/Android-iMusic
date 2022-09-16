@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_music.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\fragment_music.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notification.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\notification.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_mv.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\fragment_mv.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\music_item.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\music_item.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\music_list.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\music_list.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_play_lrc.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\fragment_play_lrc.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_play_lrc.xml",
+        "source": "D:\\Other\\code\\AndroidStudioProjects\\iMusic-V4.0\\iMusic\\app\\src\\main\\res\\layout\\view_play_lrc.xml"
+    }
+]
