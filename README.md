@@ -14,22 +14,18 @@ MusicControl实现基础音乐播放
 #LrcView：歌词视图 https://github.com/wangchenyan/lrcview
   同目录lrc文件歌词同步
 
-## 【V4.0】   
-#Service 音乐后台播放、控制  
-#外来电话、声音，捕捉焦点并暂停播放   
-#检测播放结束，自动下一曲  
-
+## 【V3.5】稳定版   
 #MV，通过WebView实现  
 #歌手列表， GridView实现  
 
-## 【V5.0】 
+## 【V4.0】 
 #通知栏显示  
 #通知栏内容更新，广播方式更新通知，实现上一首，暂停/播放，下一首，退出  
 #歌曲专辑封面显示   
    获取albumID，获取封面图片信息   
 #fragment页面:歌手/专辑分类    
    Recyclerview+adapter实现    
-
+【BUG】1、频谱不显示，暂停、播放时闪退
   
 ## 开发环境：Android Studio 64位  
 - jdk:11
@@ -40,6 +36,9 @@ MusicControl实现基础音乐播放
 
 
 ## 【待开发功能】  
+#Service 音乐后台播放、控制  
+#外来电话、声音，捕捉焦点并暂停播放   
+#检测播放结束，自动下一曲  
 + 专辑旋转封面，仿网易云碟片  
     圆角图片处理
 + 音乐控制改为后台方式  
