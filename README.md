@@ -28,7 +28,9 @@ MusicControl实现基础音乐播放
    获取albumID，获取封面图片信息   
 #fragment页面:歌手/专辑分类    
    Recyclerview+adapter实现    
-【BUG】1、频谱不显示，暂停、播放时闪退
+【BUG】
+1、频谱不显示，暂停、播放时闪退
+2、通知栏显示重叠纠错过程：
   
 ## 开发环境：Android Studio 64位  
 - jdk:11
