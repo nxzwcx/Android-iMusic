@@ -35,6 +35,7 @@ MusicControl实现基础音乐播放
 2、通知栏显示重叠纠错过程，已修复。
    原因：版本API问题
 
+
 ## 开发环境：Android Studio 64位  
 - jdk:11
 - compileSdk 32
