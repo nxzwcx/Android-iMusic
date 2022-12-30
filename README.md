@@ -27,10 +27,14 @@ MusicControl实现基础音乐播放
    获取albumID，获取封面图片信息   
 #fragment页面:歌手/专辑分类    
    Recyclerview+adapter实现    
-【BUG】
-1、频谱不显示，暂停、播放时闪退,已修复。 控制播放部分问题，显示频谱前需mediaplayer.start
-2、通知栏显示重叠纠错过程，已修复。版本API问题
-  
+
+## 【V4.5】修改日期：2022-12-30
+修复BUG：
+1、频谱不显示，暂停、播放时闪退,已修复。 
+   原因：控制播放部分问题，显示频谱前需mediaplayer.start
+2、通知栏显示重叠纠错过程，已修复。
+   原因：版本API问题
+
 ## 开发环境：Android Studio 64位  
 - jdk:11
 - compileSdk 32
