@@ -19,18 +19,17 @@ MusicControl实现基础音乐播放
 #歌手列表， GridView实现  
 
 ## 【V4.0】 
-#通知栏显示
++通知栏显示
    在MusicService调用NotificationUtil  
-#通知栏内容更新
    广播方式更新通知，实现上一首，暂停/播放，下一首，退出  
 
-#歌曲专辑封面显示   
++歌曲专辑封面显示   
    获取albumID，获取封面图片信息   
 #fragment页面:歌手/专辑分类    
    Recyclerview+adapter实现    
 【BUG】
-1、频谱不显示，暂停、播放时闪退
-2、通知栏显示重叠纠错过程：
+1、频谱不显示，暂停、播放时闪退,已修复。 控制播放部分问题，显示频谱前需mediaplayer.start
+2、通知栏显示重叠纠错过程，已修复。版本API问题
   
 ## 开发环境：Android Studio 64位  
 - jdk:11
